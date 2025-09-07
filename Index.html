@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>National Emergency Service - BD</title>
+    <link rel="stylesheet" href="./styles/Home.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="./assets/logo.png" alt="BD Logo">
+    <div class="logo-text">
+      Emergency
+      <br>
+      Service
+    </div>
+  </div>
+  
+  <div class="actions">
+    <div class="counter">
+      <img src="./assets/heart1.png" alt="heart">
+      <span id="likeCounter">0</span>
+    </div>
+    <div class="counter">
+      <img src="./assets/coin.png" alt="coin">
+      <span id="coins">100</span>
+    </div>
+    <button class="copy-btn" onclick="clearCopies(this)"><Span id="copies">0</Span> Copy</button>
+  </div>
+</header>
+<main>
+    <section class="heroSection">
+      <div class="herobox">
+        <img src="./assets/logo-dark.png" alt="">
+        <h1>Emergency Service Directory</h1>
+        <h3>Government Emergency Service at Your Fingertip - A Government of the People's Republic of Bangladesh </h3>
+      </div>
+    </section>
+    <div class="fatherofthemaintag">
+    <section class="main-holder">
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top">
+          <img src="./assets/emergency.png" alt="">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>National Emergency Number</h3>
+        <h6 class="grey">National emergency</h6>
+        <h3>999</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn" onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsNen(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top2">
+          <img src="./assets/police.png" alt="" class="img2">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>Police Helpline Number</h3>
+        <h6 class="grey">Police</h6>
+        <h3>999</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn" onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsPolce(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top">
+          <img src="./assets/emergency.png" alt="">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>Fire Service Number</h3>
+        <h6 class="grey">fire service</h6>
+        <h3>999</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn"  onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsFreStation(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top">
+          <img src="./assets/emergency.png" alt="">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>Ambulance Service</h3>
+        <h6 class="grey">Ambulance</h6>
+        <h3>1994-999999</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn" onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsAmbulance(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top">
+          <img src="./assets/emergency.png" alt="">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>Women & Children Helpline</h3>
+        <h6 class="grey">Women & Children Helpline</h6>
+        <h3>109</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn" onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsWNCS(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top">
+          <img src="./assets/emergency.png" alt="">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>Anti-Corruption Helpline</h3>
+        <h6 class="grey">Anti-Corruption</h6>
+        <h3>106</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn"  onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsAC(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top">
+          <img src="./assets/emergency.png" alt="">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>Electricity Helpline</h3>
+        <h6 class="grey">Electricity outage</h6>
+        <h3>162156</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn" onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsElectricity(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top">
+          <img src="./assets/emergency.png" alt="">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>Brac Helpline</h3>
+        <h6 class="grey">Brac</h6>
+        <h3>16445</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn" onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsBrac(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    <section class="nen-Card">
+      <div class="top-holder">
+        <div class="top">
+          <img src="./assets/emergency.png" alt="">
+          <div class="btn">
+            <button onclick="updateLikeCounter(this)">
+              <img src="./assets/heart2.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <h3>Bangladesh railway Helpline</h3>
+        <h6 class="grey">Bangladesh Railway</h6>
+        <h3>163</h3>
+      </div>
+      <div class="bottons">
+        <button class="copybtn" onclick="numberOfCopies(this)">
+          Copy
+        </button>
+        <button class="callbtn" onclick="numberOfCoinsBDRailway(this)">
+          Call
+        </button>
+      </div>
+    </section>
+    </section>
+  <section class="Recent-calls-holder">
+    <div class="recent-header">
+      <div class="title">
+        <img src="./assets/recent.png" alt="">
+        <span>Call History</span>
+      </div>
+      <button class="clear-btn">Clear</button>
+    </div>
+
+    <div class="call-list">
+      <div class="call-item">
+        <div>
+          <h4>Fire Service Number</h4>
+          <span class="number">999</span>
+        </div>
+        <span class="time">11:36:58 AM</span>
+      </div>
+
+      <div class="call-item">
+        <div>
+          <h4>Ambulance service</h4>
+          <span class="number">1994-99999</span>
+        </div>
+          <span class="time">11:36:58 AM</span>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+</main>
+  <br>
+  <br>
+  <footer>
+    <a href="./Bangla.html">
+      <h6 class="grey footer-text">
+        go here for the bangla version
+      </h6>
+    </a>
+  </footer>
+  <script src="./script/main.js"></script>
+</body>
+</html>
